@@ -1,7 +1,7 @@
 <template>
   <main>
-    <h1>TO DO LIST</h1>
-    <p>Create a list of tasks :</p>
+    <h1>Coding tasks</h1>
+    <p>Create a list of coding tasks :</p>
 
     <div class="create-new">
       <input type="text" v-model="newTask" placeholder="Add a new task" @keypress.enter="addTask" />
@@ -15,12 +15,6 @@
     </div>
 
     <div class="footer">
-     <h3>Donate BTC 👇</h3>
-     <br />
-     <img src="https://i.ibb.co/JkbnDyf/BTC.png" />
-     <br />
-     <br />
-     <p>BTC address: bc1qp4zxxj0k0whkm483qv5dk2rs6sgh2tt70h44rf</p>
     </div>
   </main>
   
